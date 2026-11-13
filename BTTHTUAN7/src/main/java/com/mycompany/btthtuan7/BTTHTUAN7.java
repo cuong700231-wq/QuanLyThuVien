@@ -33,8 +33,13 @@ public class BTTHTUAN7 {
             s.hienThiThongTin();
             System.out.println(" ");
         }
-
         
+        System.out.println("KIEM THU GETTER VA SETTER");
+        Toan.setSoLuong(50);
+        Toan.setNamXuatBan(2030);
+        Toan.setSoLuong(-10);
         
+        System.out.println("Thong tin sach " + Toan.getTieuDe() + " sau khi cap nhat:");
+        Toan.hienThiThongTin();
     }
 }
